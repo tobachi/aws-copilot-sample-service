@@ -1,0 +1,24 @@
+{
+  "Parameters" : { 
+    "AppName": "sample-app",
+    "EnvName": "staging",
+    "WorkloadName": "web",
+    "ContainerImage": "182846363980.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app/web:92f7012",
+    "TaskCPU": "256",
+    "TaskMemory": "512",
+    "TaskCount": "1",
+    "LogRetention": "30",
+    "AddonsTemplateURL": "",
+    "ContainerPort": "80",
+    "RulePath": "/",
+    "HTTPSEnabled": "false",
+    "TargetContainer": "web",
+    "TargetPort": "80",
+    "Stickiness": "false"
+  },
+  "Tags": { 
+    "copilot-application": "sample-app",
+    "copilot-environment": "staging",
+    "copilot-service": "web"
+  }
+}
