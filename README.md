@@ -1,4 +1,4 @@
-# AWS Copilot Cample Service
+# AWS Copilot Sample Service
 このリポジトリは、クラスメソッド株式会社が主催するAWSのオンライン勉強会 AKIBA.AWS #2 ONLINE で発表された「今すぐコンテナを使い始めたい人のためのAmazon ECSとAWS Copilot」に向けたサンプルサービスです。
 
 This repository contains the sample services of "Introduction to Amazon ECS and AWS Copilot for Container Beginners" on AKIBA.AWS ONLINE #2.
